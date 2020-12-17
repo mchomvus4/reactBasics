@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Lato', sans-serif;
+  background: #34495e;
+  
+
+}
+
+.bookList{
+   width: 90vw;
+   max-width: 117rem;
+   margin: 5rem auto;
+   display: grid;
+   gap: 1rem;
+   align-items: center;
+}
+
+@media screen and (min-width:768px){
+  .bookList{
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+.book{
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem 2.5rem;
+}
+.book h2{
+  margin-top: 0.5rem;
+}
+.book h4{
+  padding-bottom: 2rem;
+  letter-spacing: 0.2rem;
+  margin-top: 0.5rem;
+}
+.by_now{
+  background: #e67e22;
+  padding: 0.5rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  color: #fff;
+}
+.footer{
+  color: #fff;
+  text-align: center;
+}
+
